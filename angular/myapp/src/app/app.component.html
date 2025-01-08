@@ -1,0 +1,17 @@
+<div>
+  <p>Kiran</p>
+
+  <!-- Navigation -->
+  <nav>
+    <a
+      routerLink="/home"
+      routerLinkActive="active-link"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Home</a
+    >
+    <a routerLink="/home/about" routerLinkActive="active-link">About</a>
+  </nav>
+
+  <!-- Main outlet for rendering the routes -->
+  <router-outlet></router-outlet>
+</div>
